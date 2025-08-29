@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.tazer.subtle_name_tags.common.mixin",
+  "package": "dev.tazer.subtle_name_tags.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "subtle_name_tags.refmap.json",
   "plugin": "com.moulberry.mixinconstraints.ConstraintsMixinPlugin",

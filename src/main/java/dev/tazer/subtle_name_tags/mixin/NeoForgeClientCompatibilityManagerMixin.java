@@ -1,4 +1,4 @@
-package dev.tazer.subtle_name_tags.common.mixin;
+package dev.tazer.subtle_name_tags.mixin;
 
 import com.moulberry.mixinconstraints.annotations.IfModLoaded;
 import de.maxhenkel.voicechat.intercompatibility.NeoForgeClientCompatibilityManager;
