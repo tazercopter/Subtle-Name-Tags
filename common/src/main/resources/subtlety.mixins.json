@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "dev.tazer.subtlety.mixin",
+  "refmap": "${id}.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixinextras": {
+    "minVersion": "0.5.0"
+  },
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "GuiMixin"
+  ],
+  "mixins": [
+    "EntityRendererMixin"
+  ]
+}

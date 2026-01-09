@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "${group}.SubtletyFabric"
+    ]
+  },
+  "mixins": [
+    "${id}.mixins.json",
+    "${id}-fabric.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "*",
+    "fabricloader": "*",
+    "java": ">=${java}"
+  }
+}

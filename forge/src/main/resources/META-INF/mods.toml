@@ -1,0 +1,26 @@
+license = "ARR"
+
+[[mods]]
+modId = "${id}"
+version = "${version}"
+displayName = "${name}"
+
+[[mixins]]
+config = "${id}.mixins.json"
+
+[[mixins]]
+config = "${id}-forge.mixins.json"
+
+[[dependencies.${id}]]
+modId = "forge"
+type = "required"
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "[${minecraft},)"
+ordering = "NONE"
+side = "BOTH"

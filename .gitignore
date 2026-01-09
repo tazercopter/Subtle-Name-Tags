@@ -1,28 +1,54 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
+build/
+*.ipr
+run/
+*.iws
+out/
+*.iml
+.gradle/
+output/
+bin/
+libs/
+
+.kotlin
 .classpath
 .project
+.idea/
+classes/
+.metadata
+.vscode
+.settings
+*.launch
+.architectury-transformer
+gradle_client_output.txt
+gradle_server_output.txt
 
-# idea
-out
-*.ipr
-*.iws
-*.iml
-.idea
-
-# gradle
-build
 .gradle
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.env
 
-# other
-eclipse
-run
-runs
-run-data
+### IntelliJ IDEA ###
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-repo
-libs/mixed_litter-0.0.1.jar
-src/generated
+### Eclipse ###
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
